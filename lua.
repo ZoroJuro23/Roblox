@@ -211,7 +211,6 @@ lib.Message.New("17");
 lib.Message.New("18");
 lib.Message.New("19");
 lib.Message.New("20");
-
 else
     lib.Message.New("Failed to crash server (rejoin and execute script)");
 end;
